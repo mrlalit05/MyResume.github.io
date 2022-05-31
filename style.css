@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #efefef;
+}
+.profile-img{
+    width: 40%;
+    float: right;
+    
+}
+.profile-img img{
+    width: 100%;
+    height:100% ;
+    border-radius: 50%;
+    
+    }
+.about{
+    margin-left: 15px;
+    color: rgb(255, 51, 0);
+}
+.profile-info{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 0 20px;
+    overflow: scroll;
+    overflow-x: hidden
+}
+.profile-info::-webkit-scrollbar{
+    width: 0px;
+}
+.profile-info h1{
+    margin-top: 50px;
+    margin-bottom: 30px; 
+
+}
+.social-media img{
+    height: 50px;
+    margin-right: 15px;
+
+    
+}
+.social-media{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.profile-info h2{
+    margin-top: 50px;
+
+}
+.expertise img{
+    height: 100px;
+    margin: 5px;
+
+}
+.expertise{
+    display: inline-block;
+    width: 28%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73,241,0.18);
+    background: white;
+}
+.expertise small{
+    padding-top: 10px;
+    display: block;
+}
+.projects img{
+    width: 31%;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.form-box{
+    margin-top: 30px;
+
+}
+.input-group input{
+    width:45%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    display: inline-block;
+    background: white;
+}
+.btn{
+   display: inline-block;
+   padding: 15px 25px;
+   font-size: 24px;
+   cursor: pointer;
+   text-align: center;
+   text-decoration: none;
+   background: #fff;
+   background-color: #318634;
+   border: none;
+   border-radius: 15px;
+   box-shadow: 0 9px #999; 
+
+}
+.btn:hover{
+    background-color: #3e8e41;
+}
+.btn:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.text-area textarea{
+    width: 95%;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    display: inline-block;
+
+}
